@@ -21,6 +21,7 @@ func main() {
 
 	// intervals1 := [][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}
 	// fmt.Println(task1.Merge(intervals1))
+
 	nums1 := []int{2, 7, 11, 15}
 	fmt.Println(task1.TwoSum(nums1, 9))
 
