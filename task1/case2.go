@@ -1,4 +1,4 @@
-package task1
+package main
 
 import "fmt"
 
@@ -15,3 +15,10 @@ func IsPalindrome(x int) bool {
 	}
 	return true
 }
+
+// func main() {
+// 	fmt.Println(IsPalindrome(121))   // 输出：true
+// 	fmt.Println(IsPalindrome(-121))  // 输出：false
+// 	fmt.Println(IsPalindrome(10))    // 输出：false
+// 	fmt.Println(IsPalindrome(12321)) // 输出：true
+// }

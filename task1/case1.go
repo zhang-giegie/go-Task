@@ -1,4 +1,4 @@
-package task1
+package main
 
 func SingleNumber(nums []int) int {
 	countMap := make(map[int]int)
@@ -17,3 +17,7 @@ func SingleNumber(nums []int) int {
 
 	return -1
 }
+
+// func main() {
+// 	print(SingleNumber([]int{2, 2, 1}))
+// }

@@ -1,4 +1,4 @@
-package task1
+package main
 
 func LongestCommonPrefix(strs []string) string {
     if len(strs) == 0 {
@@ -25,3 +25,9 @@ func LongestCommonPrefix(strs []string) string {
 
     return prefix
 }
+
+// func main() {
+//     strs := []string{"flower", "flow", "flight"}
+//     result := LongestCommonPrefix(strs)
+//     println(result)
+// }

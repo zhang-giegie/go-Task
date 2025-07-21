@@ -1,4 +1,4 @@
-package task1
+package main
 
 func IsValid(s string) bool {
 	// 创建一个栈
@@ -29,3 +29,9 @@ func IsValid(s string) bool {
 	// 如果栈为空，则括号匹配有效
 	return len(stack) == 0
 }
+
+// func main() {
+// 	s := "()[]{}"
+// 	result := IsValid(s)
+// 	println(result)
+// }
